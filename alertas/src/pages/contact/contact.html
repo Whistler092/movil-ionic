@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <button ion-button block (click)="showToast('top')"> Toast Arriba</button>
+  <button ion-button block (click)="showToast('middle')"> Toast Centro</button>
+  <button ion-button block (click)="showToast('bottom')"> Toast Bajo</button>
+  <button ion-button block (click)="showLongToast()"> Toast Extenso</button>
+  <button ion-button block (click)="showToastWithCloseButton()"> Toast que se cierra</button>
+</ion-content>
