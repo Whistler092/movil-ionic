@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Empleados</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-icon name="people" color="danger" item-start></ion-icon>
+    Sueldo Trabajador
+    <ion-icon name="person" item-end color="secondary"></ion-icon>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="number" placeholder="Ingresar Horas" [(ngModel)]="hora"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="number" placeholder="Valor Hora" [(ngModel)]="valor"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>
+      El sueldo es : ${{hora*valor | number}} COL
+    </ion-label>
+  </ion-item>
+</ion-content>
