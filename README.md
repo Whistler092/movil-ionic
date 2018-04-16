@@ -17,3 +17,8 @@ Crear proyecto ionic
 ionic start myApp tabs
 ```
 
+Iniciar proyecto ionic
+```
+ionic serve
+```
+
