@@ -12,3 +12,8 @@ Agregar Firebase al proyecto
 npm install firebase angularfire2
 ```
 
+Crear proyecto ionic
+```
+ionic start myApp tabs
+```
+
