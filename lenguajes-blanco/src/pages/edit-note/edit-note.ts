@@ -3,7 +3,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Note } from '../../model/note/note.model';
 import { NoteListService } from '../../services/note-list.service';
 
-
 import { HomePage } from '../home/home';
 
 /**

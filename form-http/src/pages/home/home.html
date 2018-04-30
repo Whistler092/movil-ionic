@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Estudiante
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row wrap *ngFor="let a of data; let index = index" (click)="edit(a.id)">
+      <ion-col col-25>{{ a.nombre }}</ion-col>
+      <ion-col col-25>{{ a.correo }}</ion-col>
+      <ion-col col-25>{{ a.universidad }}</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-fab bottom rigth>
+    <button ion-fab (click) = "add()" >Agregar</button>
+  </ion-fab>
+</ion-content>
